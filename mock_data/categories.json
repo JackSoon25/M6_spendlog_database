@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "12da86a78c49ea20e32684b2"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "7b95e909348334896a68f812"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "d810a485ed03241b4d419b1b"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "673bd4755d05ad7853c1f76e"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "b97706ca828bca0385813dba"
+    },
+    "name": "Entertainment"
+  },
+  {
+    "_id": {
+      "$oid": "d3c681d06bd2aa399dac946d"
+    },
+    "name": "Healthcare"
+  },
+  {
+    "_id": {
+      "$oid": "c59c0996daeee6f529a27976"
+    },
+    "name": "Education"
+  },
+  {
+    "_id": {
+      "$oid": "4017f2ed6cfc7403d75e173e"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "4eaede5fe878f78e2978aa24"
+    },
+    "name": "Travel"
+  },
+  {
+    "_id": {
+      "$oid": "47c462ddaed16dc0cf0b9cd7"
+    },
+    "name": "Pet Care"
+  }
+]

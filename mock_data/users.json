@@ -1,0 +1,142 @@
+[
+  {
+    "_id": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "name": "Tan Wei Ming",
+    "email": "weiming.tan@example.com",
+    "password": "$2a$12$ce2vLnE5IjeVjZ4Wl02LUO31EkkSFmLrpMzK1mEPwkHC0lIHH9E.S",
+    "createdAt": {
+      "$date": "2026-01-15T08:30:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "name": "Siti Nurhaliza",
+    "email": "siti.nur@example.com",
+    "password": "$2a$12$LESb49OclyEO/Sl11b/4WemJwzn.isC.j.Mg.O6NjfdkFkWPNB5.G",
+    "createdAt": {
+      "$date": "2026-01-18T09:12:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-18T09:12:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Muhammad Hafiz",
+    "email": "hafiz.m@example.com",
+    "password": "$2a$12$X/RPokgP/oEK8yhe2b4NCuuziH/LhXu9ojjWjXhkNCXd2tLgr6MW6",
+    "createdAt": {
+      "$date": "2026-01-20T14:05:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-20T14:05:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Lim Hui Ying",
+    "email": "huiying.lim@example.com",
+    "password": "$2a$12$xy8ylY/Obrl9eFPI/ZVBBuJWlZyleTmtg.gIeZn/1lh/S6gUOOJ/e",
+    "createdAt": {
+      "$date": "2026-01-22T11:40:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-22T11:40:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@example.com",
+    "password": "$2a$12$Da5XodoqgqFmd2TMnNhgOueUjQwXRDu9Ha1H.ic5HQyaNOeafFkVO",
+    "createdAt": {
+      "$date": "2026-01-25T16:20:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-25T16:20:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "name": "Nur Aisyah Binte Ahmad",
+    "email": "aisyah.ahmad@example.com",
+    "password": "$2a$12$hTQepcRY87MO0K5DyMtE8eSG9z4kZ2.0Wq1SMWlRAJs0ASAOIShpy",
+    "createdAt": {
+      "$date": "2026-01-28T07:55:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-28T07:55:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Wong Jia Le",
+    "email": "jiale.wong@example.com",
+    "password": "$2a$12$Zbtdc6cJcnQwMsNnwNVCp.S94KB9Sq6BexdfN5g0IEgJaxOeTbHlO",
+    "createdAt": {
+      "$date": "2026-02-02T10:18:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T10:18:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "name": "Kavitha Suresh",
+    "email": "kavitha.suresh@example.com",
+    "password": "$2a$12$icGTLp9M0962SYlut3E/9eih6JBjPRoMvvV0tKuxTbJhLLznCmNVi",
+    "createdAt": {
+      "$date": "2026-02-05T13:33:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-02-05T13:33:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "name": "Ahmad Faiz Bin Zainal",
+    "email": "faiz.zainal@example.com",
+    "password": "$2a$12$6lcx.0GHrQt6LH7PnbWclO1FWvdntXan73dgcyPPN98znLGXlC5He",
+    "createdAt": {
+      "$date": "2026-02-08T09:47:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-02-08T09:47:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Chloe Goh Xin Yi",
+    "email": "chloe.goh@example.com",
+    "password": "$2a$12$vXjjoVH7vVfzwtnEzAJmg.71fjpajReqy47agznrABBsidY8Qy7a2",
+    "createdAt": {
+      "$date": "2026-02-10T15:02:00Z"
+    },
+    "updatedAt": {
+      "$date": "2026-02-10T15:02:00Z"
+    }
+  }
+]
