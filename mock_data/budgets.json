@@ -1,1328 +1,302 @@
 [
   {
     "_id": {
-      "$oid": "26e16af1d4d14aa605882ac8"
+      "$oid": "203f26e16af1d4d14aa60588"
     },
     "userId": {
       "$oid": "30877432d1026706d7e805da"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 170,
+    "monthlyLimit": 590,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "9cd1997cd896416bef4ba6e1"
+      "$oid": "2ac89cd1997cd896416bef4b"
     },
     "userId": {
       "$oid": "30877432d1026706d7e805da"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 170,
+    "monthlyLimit": 590,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "a02da187e966ece6615d3142"
+      "$oid": "a6e1a02da187e966ece6615d"
     },
     "userId": {
       "$oid": "30877432d1026706d7e805da"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 170,
+    "monthlyLimit": 590,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "f505f7965463e3621d78ed41"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 180,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "415e97a498a647c1ac49726e"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 180,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "45dac31b3629fb0f26f89264"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 180,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "79130b64915abef7ab5392e3"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "35ce1113d4db2b5b52a0f948"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "33734f83ae7518b69c647730"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "725480dc3932677172a31659"
+      "$oid": "3142f505f7965463e3621d78"
     },
     "userId": {
       "$oid": "846a32c3bb81e3c29b621792"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 390,
+    "monthlyLimit": 1360,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "a2e50add127454b4667a20f1"
+      "$oid": "ed41415e97a498a647c1ac49"
     },
     "userId": {
       "$oid": "846a32c3bb81e3c29b621792"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 390,
+    "monthlyLimit": 1360,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "fa2261bd2b5ff4891e5dc932"
+      "$oid": "726e45dac31b3629fb0f26f8"
     },
     "userId": {
       "$oid": "846a32c3bb81e3c29b621792"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 390,
+    "monthlyLimit": 1360,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "8776e7f1ccacc27ad909f03f"
+      "$oid": "264f879130b64915abef7ab5"
     },
     "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
+      "$oid": "73c8eb5bb682575ec87a171a"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 300,
+    "monthlyLimit": 1360,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "dd9e4a62bce19a285ed7361c"
+      "$oid": "392e335ce1113d4db2b5b52a"
     },
     "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
+      "$oid": "73c8eb5bb682575ec87a171a"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 300,
+    "monthlyLimit": 1360,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "5c8a4b57bc9fa65c00537e8b"
+      "$oid": "0f94833734f83ae7518b69c6"
     },
     "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
+      "$oid": "73c8eb5bb682575ec87a171a"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 300,
+    "monthlyLimit": 1360,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "c48d2ae89b9c1ffb013ce94e"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 250,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "1af408461c58790dd2cfb8a5"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 250,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "f1b461595919cb589f6aec38"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 250,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "836ed5a148fd28cbc938e019"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 240,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "bb8723d39553ccaccfab54d9"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 240,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "46a2d207dc684477391c94c8"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 240,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "86793b2b023a60e4e81e11e3"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "f79aa766907508db2823ccd7"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "1ba82f4dee6a63c59620e668"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "9002b6d08b5ab9315bd0e3a3"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "4bff2aaf438c6b8068dc5d44"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "036c002e162aaef6076bc334"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "eee21f5c7ff43fc2770c7173"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "601e1c771d814e0f33545a3c"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "0202219ec0605e636d32b327"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "94fa6022136ced620104d159"
+      "$oid": "773031f6725480dc39326771"
     },
     "userId": {
       "$oid": "c826a6fce48478dcb74f2134"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
+    "monthlyLimit": 1490,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "e8489b0ac35e5fa870d0a7ba"
+      "$oid": "72a31659a2e50add127454b4"
     },
     "userId": {
       "$oid": "c826a6fce48478dcb74f2134"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
+    "monthlyLimit": 1490,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "07a2531adab23e5617d26690"
+      "$oid": "667a20f1fa2261bd2b5ff489"
     },
     "userId": {
       "$oid": "c826a6fce48478dcb74f2134"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
+    "monthlyLimit": 1490,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "d35e59c7a80268422c922202"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "b243f8e5389cd5e3eaa60c73"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "6ba80622598514f31c827129"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "4bb54b8bb53759c0767cb7f8"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 50,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "013cb790fef33ef2c3ff57de"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 50,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "13628bef7a127f6c31d175a6"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 50,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "e42ea368b23ff8500f17f4b4"
+      "$oid": "e5dc9328776e7f1ccacc27ad"
     },
     "userId": {
       "$oid": "5d2cce8038a39d5e0853964b"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 150,
+    "monthlyLimit": 1400,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "ca1b570e2e619e469a62c050"
+      "$oid": "909f03fdd9e4a62bce19a285"
     },
     "userId": {
       "$oid": "5d2cce8038a39d5e0853964b"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 150,
+    "monthlyLimit": 1400,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "bf72fbf666f69e87a1d5ad0b"
+      "$oid": "ed7361c5c8a4b57bc9fa65c0"
     },
     "userId": {
       "$oid": "5d2cce8038a39d5e0853964b"
     },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 150,
+    "monthlyLimit": 1400,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "7048efc48738d444a157d52e"
+      "$oid": "537e8b3c48d2ae89b9c1ffb0"
     },
     "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
+      "$oid": "50af03b971722f244f58d669"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 270,
+    "monthlyLimit": 500,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "d8748d31d3092954d2c93e7f"
+      "$oid": "13ce94e1af408461c58790dd"
     },
     "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
+      "$oid": "50af03b971722f244f58d669"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 270,
+    "monthlyLimit": 500,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "b6d28c587db821f6a0efa5ea"
+      "$oid": "2cfb8a5f1b461595919cb589"
     },
     "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
+      "$oid": "50af03b971722f244f58d669"
     },
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "monthlyLimit": 270,
+    "monthlyLimit": 500,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "7d26dc47bbcfb4768314cd2f"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 100,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "eabbda5f05cb39676b9852e1"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 100,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "60d80205270575870032264f"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 100,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "f8a1285822184aaf4614dc90"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "792f3246ee72fd40663e78da"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "1070796e656984517ea9ca91"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "a291a7457e06a3bf9232cdf2"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 330,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "87eafdbea13e284142e192ad"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 330,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "24c3119432a5d575cdab37e3"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 330,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "cf759ec646f3a708f4aa5a6d"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "107b0811a7a8b9bbcc9370d7"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "15498acd947a1b5a41eafe6a"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 60,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "233a007b22f16ec9fc9fab9b"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 170,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "32fed0766bb31ed04d259b37"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 170,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "17bd5c2d6a9a5f04c5503b11"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 170,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "4644e0d4887d6e120a578757"
+      "$oid": "f6aec38bcacf836ed5a148fd"
     },
     "userId": {
       "$oid": "cbee3772a077021721a278f6"
     },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 250,
+    "monthlyLimit": 1390,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "563e68d1f0e22d4ae56ad767"
+      "$oid": "28cbc938e019bb8723d39553"
     },
     "userId": {
       "$oid": "cbee3772a077021721a278f6"
     },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 250,
+    "monthlyLimit": 1390,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "5dbd9956e246a395dfeff8f6"
+      "$oid": "ccaccfab54d946a2d207dc68"
     },
     "userId": {
       "$oid": "cbee3772a077021721a278f6"
     },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 250,
+    "monthlyLimit": 1390,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "4572bc2c3bdabc4e01fbcd95"
+      "$oid": "4477391c94c8286793b2b023"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "4f7fd633dbdde131ca3766e4"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
+    "monthlyLimit": 1290,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "04bca7a5c59340afef8b0baf"
+      "$oid": "a60e4e81e11e3f79aa766907"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "4f7fd633dbdde131ca3766e4"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
+    "monthlyLimit": 1290,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "3a8c80bc2b08a9f5c0266144"
+      "$oid": "508db2823ccd71ba82f4dee6"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "4f7fd633dbdde131ca3766e4"
     },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 340,
+    "monthlyLimit": 1290,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "71d833424d61fcd254912153"
+      "$oid": "63c59620e66869002b6d08b5"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "d58e72e310275dff6c15c0c8"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 200,
+    "monthlyLimit": 840,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "10a53e5356b6b3dacd8e7f05"
+      "$oid": "ab9315bd0e3a34bff2aaf438"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "d58e72e310275dff6c15c0c8"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 200,
+    "monthlyLimit": 840,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "554b1e1e0ee0ac414f5c500b"
+      "$oid": "c6b8068dc5d44036c002e162"
     },
     "userId": {
-      "$oid": "cbee3772a077021721a278f6"
+      "$oid": "d58e72e310275dff6c15c0c8"
     },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 200,
+    "monthlyLimit": 840,
     "month": "2026-06"
   },
   {
     "_id": {
-      "$oid": "5ac6860aa8a5f82f14d2d9d0"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "243c83de82eb31f96288b6d8"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "eacf314914bc781ef02216ef"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "monthlyLimit": 290,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "29a54358a557f78817592ce6"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 230,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "3dfa1c7ef6853ac54fff8b3f"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 230,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "a5a3bc34f9ac5a0a6e39ebbf"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 230,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "65b669972d0626373936081d"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 380,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "28a0db506573638acc02d384"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 380,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "db001dc5bb4bb84554433593"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 380,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "de017d4707b72fcdaf171e71"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 210,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "56282a2a2d92e7459da3d51f"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 210,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "35191a136c576d8e27e07c36"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 210,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "8a71cdd24221683cf863fe92"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "f442fd405123a7178b5bd85e"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "e5042d74833c27041b29ae69"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "monthlyLimit": 130,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "fa4bb7840dd51983ebf7c99c"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 260,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "18fa6eb9eb2b67d8b081abd1"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 260,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "d97aaf35f3b68f14ade9d4a4"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "monthlyLimit": 260,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "55b817a151dd64b338ec80cc"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "5c0b3aa41660793677fa31a2"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "e376e9db073ac7d7a7c198ff"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "monthlyLimit": 120,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "01ce75fc538e29e602225b0d"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 190,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "de9bb53f3b967cba892b3ba4"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 190,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "a3a5d0b7c056ebc875e5b10c"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "monthlyLimit": 190,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "f65255845a94f3489967ea4b"
+      "$oid": "aef6076bc3346eee21f5c7ff"
     },
     "userId": {
       "$oid": "e9df469611a11f5125227c37"
     },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 100,
+    "monthlyLimit": 1360,
     "month": "2026-04"
   },
   {
     "_id": {
-      "$oid": "fe513214825007e2e756aa04"
+      "$oid": "43fc2770c7173601e1c771d8"
     },
     "userId": {
       "$oid": "e9df469611a11f5125227c37"
     },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 100,
+    "monthlyLimit": 1360,
     "month": "2026-05"
   },
   {
     "_id": {
-      "$oid": "ab22031598926e8019792f4c"
+      "$oid": "14e0f33545a3c0202219ec06"
     },
     "userId": {
       "$oid": "e9df469611a11f5125227c37"
     },
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "monthlyLimit": 100,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "ece6788749c1736ebebf0bc6"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 200,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "5bfc54d5f667b388b3f9c6ad"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 200,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "09844593dedd634d54a7dc84"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "monthlyLimit": 200,
-    "month": "2026-06"
-  },
-  {
-    "_id": {
-      "$oid": "65f6ef306e13d6975bb3f259"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 270,
-    "month": "2026-04"
-  },
-  {
-    "_id": {
-      "$oid": "4831167628828f5809e7b7d3"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 270,
-    "month": "2026-05"
-  },
-  {
-    "_id": {
-      "$oid": "703a3ef076b1acdc79d2edf8"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "monthlyLimit": 270,
+    "monthlyLimit": 1360,
     "month": "2026-06"
   }
 ]
