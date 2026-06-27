@@ -1,62 +1,407 @@
 [
   {
     "_id": {
-      "$oid": "12da86a78c49ea20e32684b2"
+      "$oid": "5f53e9421ce50211670eae67"
     },
-    "name": "Food"
-  },
-  {
-    "_id": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "name": "Transport"
-  },
-  {
-    "_id": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "name": "Shopping"
-  },
-  {
-    "_id": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "name": "Bills"
-  },
-  {
-    "_id": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "name": "Entertainment"
-  },
-  {
-    "_id": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "name": "Healthcare"
-  },
-  {
-    "_id": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "name": "Education"
-  },
-  {
-    "_id": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "name": "Groceries"
-  },
-  {
-    "_id": {
-      "$oid": "4eaede5fe878f78e2978aa24"
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
     },
     "name": "Travel"
   },
   {
     "_id": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
+      "$oid": "9f02e8d28a79023c39c20066"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "1fccd268a29a0d347301ef56"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
     },
     "name": "Pet Care"
+  },
+  {
+    "_id": {
+      "$oid": "e64dc3cd6089065c3146e80a"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "name": "Entertainment"
+  },
+  {
+    "_id": {
+      "$oid": "9c222670bbe4f4c54977656c"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "name": "Education"
+  },
+  {
+    "_id": {
+      "$oid": "f2d133187c8df95247f28660"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "71159b42b4ea410fb9102f29"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "name": "Entertainment"
+  },
+  {
+    "_id": {
+      "$oid": "a422eb14ab2f2d0f0cc02223"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "name": "Education"
+  },
+  {
+    "_id": {
+      "$oid": "8daceee2092f073ff80b9465"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "86d66c7a644fb12853ef86dc"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "faea21818b904ce6087413e3"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Pet Care"
+  },
+  {
+    "_id": {
+      "$oid": "b266f850f1578b5c72dc4ee6"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "0caea63367c29a80b21ead8f"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "062d15a4f4ef27e9589c6948"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "name": "Travel"
+  },
+  {
+    "_id": {
+      "$oid": "c01c3f252edc87ff4adfa36d"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "0840164709ab7f3f386d0cd5"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Education"
+  },
+  {
+    "_id": {
+      "$oid": "66647b5aa666347428c3dd46"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "c036bb3a62f301f465365593"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Entertainment"
+  },
+  {
+    "_id": {
+      "$oid": "14e23acedbd6b0165debbc65"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "30a2c6a8835c4abd5c652a9f"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "name": "Travel"
+  },
+  {
+    "_id": {
+      "$oid": "789a6c52cf63c03378ec16c0"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "3888ad3e21c5cf5f1dfd9c9b"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "name": "Healthcare"
+  },
+  {
+    "_id": {
+      "$oid": "9f89900715dc1ac1a27df871"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "name": "Pet Care"
+  },
+  {
+    "_id": {
+      "$oid": "31de361b43be4de8db4947f3"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "9b8868767611088d01378225"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "7bffb6aaf423e6ed8c4b4a95"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "2dfe9029629fa947bab3ae8e"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Healthcare"
+  },
+  {
+    "_id": {
+      "$oid": "9ea7c72bb0bcc6bc4552e907"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "1590d292a283a2043d77faec"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "baa4ff21db0c2e0b03dd475c"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "5a6cd981f939451e0f1a365b"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "67f7e58c59f8fca2f7c164c8"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "name": "Entertainment"
+  },
+  {
+    "_id": {
+      "$oid": "be7d5d5a484814506442b83f"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "e2906d62e61df59a9c29e2b2"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "43ce3e0cf793e0649c9ac286"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "8faec23434556c1e237153dd"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "name": "Education"
+  },
+  {
+    "_id": {
+      "$oid": "2ad464cfad0ca708a6a9e3c6"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "a935897b46606247fdaa2b8e"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "name": "Healthcare"
+  },
+  {
+    "_id": {
+      "$oid": "3e47285a4309b7b552e1c549"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "14c3c5a487a114cf3fbdd9fe"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Pet Care"
+  },
+  {
+    "_id": {
+      "$oid": "dd33add0a19dca9273e7c1f3"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Food"
+  },
+  {
+    "_id": {
+      "$oid": "79c72bd57d32343e09790a52"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Shopping"
+  },
+  {
+    "_id": {
+      "$oid": "eec4b7190ea9af4f66916abf"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Transport"
+  },
+  {
+    "_id": {
+      "$oid": "05676139a8d4aed257936857"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Bills"
+  },
+  {
+    "_id": {
+      "$oid": "98b37957842e2e21098d2596"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "name": "Healthcare"
   }
 ]

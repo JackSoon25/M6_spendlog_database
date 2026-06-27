@@ -1,0 +1,20 @@
+[
+    {
+        "title": "lunch at Din Tai Feng",
+        "amount": 230,
+        "paymentMethod": "credit card",
+        "date": "2026-06-20",
+        "categoryName": "Food"
+    },
+    {
+        "amount": 1000,
+        "date": "2026-06-19"
+    },
+    {
+        "title": "buy birthday gift",
+        "amount": 2030,
+        "paymentMethod": "paynow",
+        "date": "2026-06-10",
+        "categoryName": "Shopping"
+    }
+]

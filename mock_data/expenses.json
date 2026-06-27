@@ -1,2042 +1,1617 @@
 [
   {
     "_id": {
-      "$oid": "24c1c099724caf4941d40720"
+      "$oid": "5f44543246ae5191a4d231af"
     },
     "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
+      "$oid": "4f7fd633dbdde131ca3766e4"
     },
-    "title": "MRT top-up",
-    "amount": 15.05,
+    "title": "Dinner at Hawker Centre",
+    "amount": 12.29,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Cash",
+    "categoryName": "Food",
+    "paymentMethod": "Debit Card",
     "date": {
       "$date": "2026-04-01T00:00:00Z"
     },
-    "notes": "",
-    "isRecurring": false
+    "notes": "Urgent purchase"
   },
   {
     "_id": {
-      "$oid": "8a7f770d9106fd287db7f1ad"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Breakfast at kopitiam",
-    "amount": 4.8,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-02T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "2c995f1abef543b5dfce8a98"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Netflix subscription",
-    "amount": 16.98,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-04-02T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "d7ccc7e90a88d519448fb2fc"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Tuition fee",
-    "amount": 273.91,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-02T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "b17cdc70808d77b6ad89f65f"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Groceries at NTUC",
-    "amount": 34.31,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-02T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "006f7e3dfc967a64cb14028d"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Mobile phone bill",
-    "amount": 31.94,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-03T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "cc60d5d32cbe54014c2b54b9"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Online shopping - Shopee",
-    "amount": 36.56,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-03T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "2be1ceb374dab4683f84d30d"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Textbook purchase",
-    "amount": 44.78,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-04-03T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "86bebb2737f6a6f0fb23c6f5"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Taxi fare",
-    "amount": 12.46,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-04T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "1212b62c376631129f34369a"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Hotel booking",
-    "amount": 199.13,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-04T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "1da5204642bbdb4a78f19e8b"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Sheng Siong grocery run",
-    "amount": 46.2,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-04-04T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "921da2e055c90eb6f2aed4c2"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Taxi fare",
-    "amount": 17.96,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-04-05T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "d3b97429ab7bca1aafb77b44"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Hotel booking",
-    "amount": 248.67,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-05T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "578715bbd26944ff770e4b94"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Internet bill",
-    "amount": 51.43,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-06T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "680ce2b27c8af6666259bbc4"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Textbook purchase",
-    "amount": 45.47,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-08T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "2827283e0ad8417358156996"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Groceries at Cold Storage",
-    "amount": 58.39,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-10T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "ee737443e210471948d33296"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Skincare products",
-    "amount": 47.04,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-10T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "49c488e00a4ff1125cf5ec72"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Clinic consultation",
-    "amount": 37.2,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-10T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "cdf03eeddf52ecf4076c19ac"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Dental checkup",
-    "amount": 110.21,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-11T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "aee0ca923732881584d8c4fa"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Movie tickets",
-    "amount": 16.99,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-04-12T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "ab29539ad5966d513b1d0090"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Pet grooming",
-    "amount": 43.55,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-12T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "b5ba0837bbf1b3ba3178b6e0"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Pharmacy purchase",
-    "amount": 18.52,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-04-12T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "4499d863386ce10cd79e048c"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Dinner at Hawker Centre",
-    "amount": 14.62,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-04-14T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "9d97dcbee500fe7ee5fc324b"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Taxi fare",
-    "amount": 25.41,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-16T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "ed440e50454f31af3176813e"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Petrol top-up",
-    "amount": 56.76,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-04-17T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "5beaecba0afa707e1448c828"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Hotel booking",
-    "amount": 132.91,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-04-17T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "1d30b49895d1a0d1f13dce20"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Stationery",
-    "amount": 11.25,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-23T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "cb3acac23db7c6e9b7d180a4"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Water bill",
-    "amount": 20.38,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-24T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "e6f0bade65c3b188cc102ddb"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Groceries at Cold Storage",
-    "amount": 43.85,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-04-26T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "e1777155a0e9d8f27c7d9cf0"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Airport transfer",
-    "amount": 15.39,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-29T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "50882161db80a1e9ad8cdadc"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Groceries at Cold Storage",
-    "amount": 81.92,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-29T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "ec8df4f50947aaeb26c57d21"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Online course subscription",
-    "amount": 20.73,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-30T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "22f856469602d1ba9f20df48"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Breakfast at kopitiam",
-    "amount": 3.54,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-04-30T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "32d2e433ec56f24b1c71b106"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Travel insurance",
-    "amount": 34.18,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-04-30T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "0adb59261ff2d3c425c8d99d"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Water bill",
-    "amount": 15.66,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-03T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "e2f264d9b1ecb19dd8b7c46b"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Wet market shopping",
-    "amount": 33.34,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-03T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "dcd6c8a1f8b46287cced9041"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Mobile phone bill",
-    "amount": 29.78,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-04T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "f3a6a9421cc1c93016f1c426"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Airport transfer",
-    "amount": 21.67,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-05T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "9e7c6be9ff907a76cc0b57aa"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Stationery",
-    "amount": 10.77,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-06T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "af90d0d3bf16295d06910bf3"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Flight ticket booking",
-    "amount": 255.27,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-07T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "f6967e7893f57fd14c1604d1"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Shoes purchase",
-    "amount": 40.54,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-08T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "f1f836f99eee3692f09e2e8c"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Vet checkup",
-    "amount": 79.09,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-05-09T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "fab8c3bfc5e740e61572b4e3"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Netflix subscription",
-    "amount": 16.98,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-09T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "f49a067e24bdb7ec83756378"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Vet checkup",
-    "amount": 76.55,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-09T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "3a8f506b40928b5b7a767c76"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Vet checkup",
-    "amount": 68.82,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-05-10T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "fe228f219e9cb0eb53f16947"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Concert ticket",
-    "amount": 131.02,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-11T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "5a65e19cbae530282bd36cb9"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Phone case",
-    "amount": 18.78,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-11T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "fdf6a0b29872400c49b5539a"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Groceries at NTUC",
-    "amount": 59.89,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-13T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "75ae616b1e5d490340494b35"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Dental checkup",
-    "amount": 69.78,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-13T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "f3b4a715e4e48dd74089a58f"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Pet grooming",
-    "amount": 27.63,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-14T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "4074e3248c801bef750110c5"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Insurance premium",
-    "amount": 96.05,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-05-17T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "773c9d51940ea4e095bd1d68"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Online shopping - Shopee",
-    "amount": 50.19,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-05-17T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "4a0b80316f688d3e481a65c2"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Travel insurance",
-    "amount": 37.33,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-18T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "e23b7ac193fe040727553980"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Pet food purchase",
-    "amount": 24.09,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-18T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "b87113c16fdf5924754ec21e"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Vet checkup",
-    "amount": 59.21,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-18T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "90c257a632b96292794c9bce"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Spotify subscription",
-    "amount": 9.99,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-05-20T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "c1626e53a13043b026c48bbf"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Airport transfer",
-    "amount": 22.96,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-21T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "255404e4fb440034d6608697"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Travel insurance",
-    "amount": 21.73,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-05-21T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "24998a26259bebd2fa588058"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Vet checkup",
-    "amount": 64.3,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-05-21T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "d8dbc74254770f58904dba41"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Pet food purchase",
-    "amount": 24.16,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-22T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "e65426f74bde94fb78c8d5f0"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Dinner at Hawker Centre",
-    "amount": 8.03,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-05-22T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "90bf61189639e35aeeb95210"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Airport transfer",
-    "amount": 31.79,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4eaede5fe878f78e2978aa24"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-22T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "f640d0032634f087e51b429f"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Water bill",
-    "amount": 22.13,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-23T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "988c79fc35526f7eaed46725"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Textbook purchase",
-    "amount": 38.54,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-05-24T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "8263dfe574de739988b886e7"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Tuition fee",
-    "amount": 132.14,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-05-25T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "18f99ddceb1be0273dbc46df"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Dental checkup",
-    "amount": 64.3,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-25T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "38d74ff1fe4f7f505aef9ebd"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Electricity bill",
-    "amount": 104.51,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-05-27T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "7f80e222f828767efc2f9162"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Pet food purchase",
-    "amount": 29.42,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-05-28T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "36714122a40680a06aa0fca5"
-    },
-    "userId": {
-      "$oid": "d58e72e310275dff6c15c0c8"
-    },
-    "title": "Pharmacy purchase",
-    "amount": 10.95,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-28T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "c328a72c5e5b77518b1018f1"
-    },
-    "userId": {
-      "$oid": "50af03b971722f244f58d669"
-    },
-    "title": "Pet grooming",
-    "amount": 37.94,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-05-29T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "18813830d71939b53182e4e3"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Internet bill",
-    "amount": 51.65,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-05-29T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "2b49c12a4b0062983475eb46"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Taxi fare",
-    "amount": 16.83,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-01T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "41fa1c257c6f561c5cb34761"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Clinic consultation",
-    "amount": 27.72,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-02T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "2dd272d1371c17149d439536"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Petrol top-up",
-    "amount": 42.32,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-06-04T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "ef786e4d3cea27d26934b484"
-    },
-    "userId": {
-      "$oid": "30877432d1026706d7e805da"
-    },
-    "title": "Stationery",
-    "amount": 8.26,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "c59c0996daeee6f529a27976"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-04T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "91e558e08baa7196b50ac2f8"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Home decor item",
-    "amount": 44.44,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-04T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "967f532f3ab3cc2d0b698d5c"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Grab ride home",
-    "amount": 21.85,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-06-05T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "62058765a6ca7cff00d796c2"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Home decor item",
-    "amount": 30.26,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-06T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "28c9e3ef5404bf7bac806081"
+      "$oid": "32f1f51ac987270405fddba9"
     },
     "userId": {
       "$oid": "e9df469611a11f5125227c37"
     },
     "title": "Bus fare",
-    "amount": 1.71,
+    "amount": 1.41,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-06T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "483b7ffc050fec94dbca3a0a"
-    },
-    "userId": {
-      "$oid": "846a32c3bb81e3c29b621792"
-    },
-    "title": "Skincare products",
-    "amount": 29.06,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-06-07T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "1bac7adac1a4b7d0b352ad60"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Insurance premium",
-    "amount": 180.77,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
+    "categoryName": "Transport",
     "paymentMethod": "PayNow",
     "date": {
-      "$date": "2026-06-07T00:00:00Z"
+      "$date": "2026-04-01T00:00:00Z"
     },
-    "notes": "",
-    "isRecurring": true
+    "notes": "Reimbursable"
   },
   {
     "_id": {
-      "$oid": "d34530325fed10a47b851832"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Spotify subscription",
-    "amount": 9.99,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-06-08T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "abf0d7c1c1e21862ab8a18a8"
+      "$oid": "26b9d6428dbd8e433bd7f393"
     },
     "userId": {
       "$oid": "73c8eb5bb682575ec87a171a"
     },
-    "title": "Internet bill",
-    "amount": 42.94,
+    "title": "Travel insurance",
+    "amount": 26.14,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
+    "categoryName": "Travel",
     "paymentMethod": "Credit Card",
     "date": {
-      "$date": "2026-06-09T00:00:00Z"
+      "$date": "2026-04-02T00:00:00Z"
     },
-    "notes": "",
-    "isRecurring": true
+    "notes": "Urgent purchase"
   },
   {
     "_id": {
-      "$oid": "ee75bb6cc69f67e48eb7c643"
+      "$oid": "776efb99042617373283e8f4"
     },
     "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Electricity bill",
-    "amount": 71.78,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-09T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "8fbf742b65b754e51acbd3d4"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Groceries at NTUC",
-    "amount": 55.16,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-06-09T00:00:00Z"
-    },
-    "notes": "Split with friend",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "d6d59291f0cde2e5738713a8"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Grab ride to office",
-    "amount": 8.21,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-06-10T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "b47c20431658b4550b7ef6bc"
-    },
-    "userId": {
-      "$oid": "e9df469611a11f5125227c37"
-    },
-    "title": "Groceries at Cold Storage",
-    "amount": 48.91,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "4017f2ed6cfc7403d75e173e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-11T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "83cee9b9bcca0fce9594dc72"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Phone case",
-    "amount": 12.77,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d810a485ed03241b4d419b1b"
-    },
-    "paymentMethod": "Credit Card",
-    "date": {
-      "$date": "2026-06-13T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "3911731a6b2dc782bdeae16d"
-    },
-    "userId": {
-      "$oid": "4f7fd633dbdde131ca3766e4"
-    },
-    "title": "Spotify subscription",
-    "amount": 9.99,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Bank Transfer",
-    "date": {
-      "$date": "2026-06-13T00:00:00Z"
-    },
-    "notes": "Urgent purchase",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "2c8773e130f7eb19731662b5"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Dinner at Hawker Centre",
-    "amount": 7.81,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-14T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "d818319478da6bd0c621de49"
-    },
-    "userId": {
-      "$oid": "73c8eb5bb682575ec87a171a"
-    },
-    "title": "Internet bill",
-    "amount": 45.85,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-15T00:00:00Z"
-    },
-    "notes": "",
-    "isRecurring": true
-  },
-  {
-    "_id": {
-      "$oid": "753eda83d7c58dfe0d5a0cf3"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
-    },
-    "title": "Grab ride home",
-    "amount": 24.02,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Cash",
-    "date": {
-      "$date": "2026-06-15T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "7e3b35183ef8333c4774ec50"
-    },
-    "userId": {
-      "$oid": "cbee3772a077021721a278f6"
-    },
-    "title": "Dental checkup",
-    "amount": 51.24,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "d3c681d06bd2aa399dac946d"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-16T00:00:00Z"
-    },
-    "notes": "Monthly expense",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "a4ea5ee874ae7689447ab57a"
-    },
-    "userId": {
-      "$oid": "5d2cce8038a39d5e0853964b"
+      "$oid": "d58e72e310275dff6c15c0c8"
     },
     "title": "Petrol top-up",
-    "amount": 63.76,
+    "amount": 52.46,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "PayNow",
-    "date": {
-      "$date": "2026-06-17T00:00:00Z"
-    },
-    "notes": "Paid by myself",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "b165c58ac5831be38cb8cb4b"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Dinner at Hawker Centre",
-    "amount": 10.92,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "12da86a78c49ea20e32684b2"
-    },
+    "categoryName": "Transport",
     "paymentMethod": "Credit Card",
     "date": {
-      "$date": "2026-06-18T00:00:00Z"
+      "$date": "2026-04-03T00:00:00Z"
     },
-    "notes": "Urgent purchase",
-    "isRecurring": false
+    "notes": "Urgent purchase"
   },
   {
     "_id": {
-      "$oid": "89a01749ddb14f71010b93b7"
-    },
-    "userId": {
-      "$oid": "c826a6fce48478dcb74f2134"
-    },
-    "title": "Grab ride home",
-    "amount": 14.6,
-    "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
-    "paymentMethod": "Debit Card",
-    "date": {
-      "$date": "2026-06-18T00:00:00Z"
-    },
-    "notes": "Reimbursable",
-    "isRecurring": false
-  },
-  {
-    "_id": {
-      "$oid": "daeeb975729fae923d5a4fd1"
+      "$oid": "541ec0f152baf19553d7e878"
     },
     "userId": {
       "$oid": "30877432d1026706d7e805da"
     },
-    "title": "Netflix subscription",
-    "amount": 16.98,
+    "title": "Wet market shopping",
+    "amount": 29.68,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Cash",
+    "categoryName": "Groceries",
+    "paymentMethod": "Debit Card",
     "date": {
-      "$date": "2026-06-19T00:00:00Z"
+      "$date": "2026-04-04T00:00:00Z"
     },
-    "notes": "Urgent purchase",
-    "isRecurring": true
+    "notes": "Reimbursable"
   },
   {
     "_id": {
-      "$oid": "1a3ff416d4a3baf69dad8199"
+      "$oid": "f5b29e97cd4c694e538fd34a"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Groceries at NTUC",
+    "amount": 46.18,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-04T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "ec19515c6007df2e05a0591a"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Bubble tea",
+    "amount": 6.93,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-04T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "9a6baa6fa0e9b77a4aed555f"
     },
     "userId": {
       "$oid": "50af03b971722f244f58d669"
     },
-    "title": "Pet food purchase",
-    "amount": 35.93,
+    "title": "New t-shirt",
+    "amount": 32.38,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "47c462ddaed16dc0cf0b9cd7"
-    },
+    "categoryName": "Shopping",
     "paymentMethod": "Credit Card",
     "date": {
-      "$date": "2026-06-21T00:00:00Z"
+      "$date": "2026-04-04T00:00:00Z"
     },
-    "notes": "Urgent purchase",
-    "isRecurring": false
+    "notes": "Reimbursable"
   },
   {
     "_id": {
-      "$oid": "8c763211caeae0ffac7cb2c8"
+      "$oid": "6af603d2207eefaa1deb84b3"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Coffee at Starbucks",
+    "amount": 7.19,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-04-04T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "a697a09d9af8b2db949c1b47"
     },
     "userId": {
       "$oid": "e9df469611a11f5125227c37"
     },
-    "title": "KTV session",
-    "amount": 44.11,
+    "title": "Insurance premium",
+    "amount": 130.76,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Bank Transfer",
+    "categoryName": "Bills",
+    "paymentMethod": "Cash",
     "date": {
-      "$date": "2026-06-21T00:00:00Z"
+      "$date": "2026-04-06T00:00:00Z"
     },
-    "notes": "Monthly expense",
-    "isRecurring": false
+    "notes": "Urgent purchase"
   },
   {
     "_id": {
-      "$oid": "1760147d301a233f4d05743b"
+      "$oid": "39a538e822702955a39febfe"
     },
     "userId": {
-      "$oid": "e9df469611a11f5125227c37"
+      "$oid": "5d2cce8038a39d5e0853964b"
     },
-    "title": "Netflix subscription",
-    "amount": 16.98,
+    "title": "Dinner at Hawker Centre",
+    "amount": 12.25,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "b97706ca828bca0385813dba"
-    },
-    "paymentMethod": "Debit Card",
+    "categoryName": "Food",
+    "paymentMethod": "Cash",
     "date": {
-      "$date": "2026-06-22T00:00:00Z"
+      "$date": "2026-04-07T00:00:00Z"
     },
-    "notes": "",
-    "isRecurring": true
+    "notes": ""
   },
   {
     "_id": {
-      "$oid": "42a21c402364f9572b85a8e4"
+      "$oid": "2095b6c84b0bcc4976503206"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Online shopping - Shopee",
+    "amount": 37.3,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-07T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "240d42d52bf63d4f62f02498"
     },
     "userId": {
       "$oid": "c826a6fce48478dcb74f2134"
     },
-    "title": "Grab ride home",
-    "amount": 20.09,
+    "title": "Bus fare",
+    "amount": 2.74,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "7b95e909348334896a68f812"
-    },
+    "categoryName": "Transport",
     "paymentMethod": "Credit Card",
     "date": {
-      "$date": "2026-06-24T00:00:00Z"
+      "$date": "2026-04-08T00:00:00Z"
     },
-    "notes": "Reimbursable",
-    "isRecurring": false
+    "notes": ""
   },
   {
     "_id": {
-      "$oid": "0e7cb3593871c15d694c1957"
+      "$oid": "d54265f7aa444a16747ebb38"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Clinic consultation",
+    "amount": 34.51,
+    "currency": "SGD",
+    "categoryName": "Healthcare",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-04-09T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "a62d11999dc2d2d7cae7f219"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Online shopping - Shopee",
+    "amount": 56.15,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-04-10T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "e62b0b0b04f2b5eaf170cd73"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Flight ticket booking",
+    "amount": 313.78,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-13T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "92ed8cfcfb231c24e4d374e9"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Lunch at food court",
+    "amount": 6.83,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-13T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "4dae85083aa1099e1a386f21"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Dinner at Hawker Centre",
+    "amount": 11.54,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-16T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "db87f848cf241d86ac68e085"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Groceries at NTUC",
+    "amount": 52.3,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-16T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "7041fef0e810e3a5da4d899b"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Vet checkup",
+    "amount": 45.95,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-17T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "4865731da211c1f1e6adb12c"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Dental checkup",
+    "amount": 101.93,
+    "currency": "SGD",
+    "categoryName": "Healthcare",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-04-18T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "f6c6e9fef5f6cd218b8058c6"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Groceries at Cold Storage",
+    "amount": 78.63,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-21T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "b42b3bbd71a9e9de60ef8f58"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Dinner at Hawker Centre",
+    "amount": 13.53,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-21T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "422393ef15df1b8cc88ba5a6"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Spotify subscription",
+    "amount": 9.99,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-04-23T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "82ca5b04c16bed33ededc7c1"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Stationery",
+    "amount": 12.8,
+    "currency": "SGD",
+    "categoryName": "Education",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-04-23T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "ff99d62d5e5a1d174975a587"
     },
     "userId": {
       "$oid": "4f7fd633dbdde131ca3766e4"
     },
     "title": "Electricity bill",
-    "amount": 81.99,
+    "amount": 114.67,
     "currency": "SGD",
-    "categoryId": {
-      "$oid": "673bd4755d05ad7853c1f76e"
+    "categoryName": "Bills",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-23T00:00:00Z"
     },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "5bab39837b05899848f28098"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Tuition fee",
+    "amount": 124.16,
+    "currency": "SGD",
+    "categoryName": "Education",
     "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-04-25T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "8128e6bd6eda60d92efecc27"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 42.17,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-25T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "1e5a40fde802357419d1a8f2"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 27.84,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-04-26T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "5b344bb5d00c1c3a605a23ad"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Movie tickets",
+    "amount": 19.65,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-04-27T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "17227e61d4bb22c4d7a6c92f"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Coffee at Starbucks",
+    "amount": 6.53,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-04-27T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "21dd282eecc1489fbf046878"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Tuition fee",
+    "amount": 106.21,
+    "currency": "SGD",
+    "categoryName": "Education",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-04-28T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "88697e1505328b092e062b08"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 36.72,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-04-28T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "e233757dffb6b257742dd7bd"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Breakfast at kopitiam",
+    "amount": 5.09,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-04-29T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "5266caf291efb2f3829a35a6"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Stationery",
+    "amount": 12.65,
+    "currency": "SGD",
+    "categoryName": "Education",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-04-30T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "4299b77de16e53e43445d3d0"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Flight ticket booking",
+    "amount": 170.32,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-01T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "88622857c93caf01dfc38130"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Home decor item",
+    "amount": 48.89,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-01T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "c4214a137956e3d62525cd4c"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Lunch at Toast Box",
+    "amount": 11.38,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-05-01T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "d02651458a811e1d3f681208"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Insurance premium",
+    "amount": 188.31,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-03T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "6ca0300a8f02d7f5efd8ac7a"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Concert ticket",
+    "amount": 77.08,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-04T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "2de121ef7a53ce3e4835acdf"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Home decor item",
+    "amount": 42.2,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-05-06T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "91f1c24a060fda252e4ced3e"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Water bill",
+    "amount": 27.29,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-07T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "837de27b9a615c1a5ec6cc16"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Taxi fare",
+    "amount": 21.8,
+    "currency": "SGD",
+    "categoryName": "Transport",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-08T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "7fb17f1203a1bfc23d05814a"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Mobile phone bill",
+    "amount": 29.32,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-05-11T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "60b5bcceeb4fca2f78bd1828"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Hotel booking",
+    "amount": 211.4,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-12T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "e60d6f8723ef72f124b53a1b"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Tuition fee",
+    "amount": 203.53,
+    "currency": "SGD",
+    "categoryName": "Education",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-15T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "d131ec752e6074f2bfd30494"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Electricity bill",
+    "amount": 90.56,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-05-15T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "12ff49aa66e9478953f9710a"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Pet grooming",
+    "amount": 28.58,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-16T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "7b0799800b9d585353f69e7d"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Shoes purchase",
+    "amount": 84.91,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-16T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "849c18ca359c3428f732bf69"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Wet market shopping",
+    "amount": 22.05,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-16T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "1747a6794f36f1b625910b2b"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Grab ride to office",
+    "amount": 15.88,
+    "currency": "SGD",
+    "categoryName": "Transport",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-05-16T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "4730ace2ca819c7f1644169d"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Pet food purchase",
+    "amount": 23.84,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-17T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "b961a5f3b12688dbc2932c78"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Travel insurance",
+    "amount": 39.22,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-17T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "782d3cf1fca9f875c6f5b72a"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Wet market shopping",
+    "amount": 28.33,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-05-18T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "0ef226a6dc0aa866545e1483"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 25.45,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-20T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "07f2a8b30a6c5655af9bd9bf"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Groceries at NTUC",
+    "amount": 67.06,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-21T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "0781babe7d56468ef7a57880"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Bus fare",
+    "amount": 1.44,
+    "currency": "SGD",
+    "categoryName": "Transport",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-21T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "8a72f6b814209205af46df1d"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Groceries at Cold Storage",
+    "amount": 50.06,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-22T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "25389c985841ddc08ff7cb10"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Pet grooming",
+    "amount": 48.64,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-22T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "f3bc8c49e11f4c0584f39d0a"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Grab ride to office",
+    "amount": 15.13,
+    "currency": "SGD",
+    "categoryName": "Transport",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-05-22T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "f7c7d12471fc0c2ce367fa3a"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Internet bill",
+    "amount": 53.03,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-25T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "8a5b4dde8af75e95a7c5a930"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Pet grooming",
+    "amount": 37.93,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-31T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "9106a0dc9945cb318999735c"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Lunch at Toast Box",
+    "amount": 8.33,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-05-31T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "c6d7e2bda9e89070db48cd8a"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 26.77,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-01T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "e1adeb614f44e107d42c9fd2"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Spotify subscription",
+    "amount": 9.99,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-03T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "a441cb12d7b02a7b3941ca55"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Online shopping - Shopee",
+    "amount": 51.75,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-04T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "c0fc8fe12aff1408e12817c1"
+    },
+    "userId": {
+      "$oid": "5d2cce8038a39d5e0853964b"
+    },
+    "title": "Pet food purchase",
+    "amount": 32.43,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-06-05T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "b2304c3ed152e7f6ea007627"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "New t-shirt",
+    "amount": 36.55,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-06-06T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "0c3f91cd92683daf643c9887"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 24.7,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-06-07T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "796b7dac2a1b9d6d7f23ddfd"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 42.7,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-07T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "79099c11e96bebe2c76237ad"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Mobile phone bill",
+    "amount": 34.37,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-07T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "3fcd80047acb8beb982a38a6"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 31.98,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-06-08T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "9b0e1afc2810995370f00b0e"
+    },
+    "userId": {
+      "$oid": "d58e72e310275dff6c15c0c8"
+    },
+    "title": "Vitamins and supplements",
+    "amount": 33.5,
+    "currency": "SGD",
+    "categoryName": "Healthcare",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-08T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "425891db7febb68b72329033"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Movie tickets",
+    "amount": 23.51,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "4d0fa525133990d14520b26c"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Travel insurance",
+    "amount": 38.78,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "f06c5fe5f63b5d720f4b279b"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Groceries at Cold Storage",
+    "amount": 66.19,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-06-09T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "8aec468ec4cb739bb6410f09"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Textbook purchase",
+    "amount": 55.85,
+    "currency": "SGD",
+    "categoryName": "Education",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-10T00:00:00Z"
+    },
+    "notes": "Urgent purchase"
+  },
+  {
+    "_id": {
+      "$oid": "90c3b2c81cf9fa8201bab985"
+    },
+    "userId": {
+      "$oid": "30877432d1026706d7e805da"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 37.48,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-06-10T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "33c9363da4348fd1dc6ffdcf"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Mobile phone bill",
+    "amount": 38.32,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-10T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "350c7747d40595b2a2b11ef2"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Bubble tea",
+    "amount": 5.33,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-06-10T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "3ee4ca81ec2083659eda68b2"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Insurance premium",
+    "amount": 98.94,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-12T00:00:00Z"
+    },
+    "notes": "Reimbursable"
+  },
+  {
+    "_id": {
+      "$oid": "8a3ad0fc262b85da6de181e3"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Internet bill",
+    "amount": 42.53,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-13T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "f88d504a08afa5ff9d431eee"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Mobile phone bill",
+    "amount": 39.93,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Bank Transfer",
+    "date": {
+      "$date": "2026-06-14T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "11a4ea8a6fc14f3754338825"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Sheng Siong grocery run",
+    "amount": 33.4,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-15T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "560f7e6f12146ce7dc5b1b24"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Wet market shopping",
+    "amount": 22.79,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-06-15T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "25decf3753941b5faf4eb937"
+    },
+    "userId": {
+      "$oid": "c826a6fce48478dcb74f2134"
+    },
+    "title": "Hotel booking",
+    "amount": 153.56,
+    "currency": "SGD",
+    "categoryName": "Travel",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-06-19T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "586751b14605fa85a3019c8c"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Lunch at food court",
+    "amount": 5.51,
+    "currency": "SGD",
+    "categoryName": "Food",
+    "paymentMethod": "PayNow",
+    "date": {
+      "$date": "2026-06-21T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "5bb10aff616ec0ab1ca8239c"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "Pet grooming",
+    "amount": 46.5,
+    "currency": "SGD",
+    "categoryName": "Pet Care",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-21T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "48546c9750f488d8cc415316"
+    },
+    "userId": {
+      "$oid": "846a32c3bb81e3c29b621792"
+    },
+    "title": "Concert ticket",
+    "amount": 148.51,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Credit Card",
+    "date": {
+      "$date": "2026-06-22T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "66fb4c32058f3de40bb03bd3"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Home decor item",
+    "amount": 29.05,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-23T00:00:00Z"
+    },
+    "notes": "Paid by myself"
+  },
+  {
+    "_id": {
+      "$oid": "dae31915cac73b1abf7f0bd3"
+    },
+    "userId": {
+      "$oid": "73c8eb5bb682575ec87a171a"
+    },
+    "title": "Phone case",
+    "amount": 12.62,
+    "currency": "SGD",
+    "categoryName": "Shopping",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-23T00:00:00Z"
+    },
+    "notes": "Monthly expense"
+  },
+  {
+    "_id": {
+      "$oid": "ed6972ac0dbd82c7c96d1f16"
+    },
+    "userId": {
+      "$oid": "50af03b971722f244f58d669"
+    },
+    "title": "Insurance premium",
+    "amount": 193.97,
+    "currency": "SGD",
+    "categoryName": "Bills",
+    "paymentMethod": "Debit Card",
+    "date": {
+      "$date": "2026-06-23T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6451dd56b1b314e88eb310f7"
+    },
+    "userId": {
+      "$oid": "cbee3772a077021721a278f6"
+    },
+    "title": "Concert ticket",
+    "amount": 73.68,
+    "currency": "SGD",
+    "categoryName": "Entertainment",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-23T00:00:00Z"
+    },
+    "notes": ""
+  },
+  {
+    "_id": {
+      "$oid": "325d59a992e1f4a35de24159"
+    },
+    "userId": {
+      "$oid": "4f7fd633dbdde131ca3766e4"
+    },
+    "title": "Groceries at NTUC",
+    "amount": 37.05,
+    "currency": "SGD",
+    "categoryName": "Groceries",
+    "paymentMethod": "Cash",
+    "date": {
+      "$date": "2026-06-23T00:00:00Z"
+    },
+    "notes": "Split with friend"
+  },
+  {
+    "_id": {
+      "$oid": "73b914e38e37c80c7e4f763f"
+    },
+    "userId": {
+      "$oid": "e9df469611a11f5125227c37"
+    },
+    "title": "MRT top-up",
+    "amount": 16.16,
+    "currency": "SGD",
+    "categoryName": "Transport",
+    "paymentMethod": "Credit Card",
     "date": {
       "$date": "2026-06-24T00:00:00Z"
     },
-    "notes": "Split with friend",
-    "isRecurring": true
+    "notes": ""
   }
 ]
