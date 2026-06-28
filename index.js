@@ -9,7 +9,7 @@ const cors = require('cors');
 const { connect } = require('./db');
 const { ObjectId } = require('mongodb');
 const axios = require('axios');
-const { generateExpense } = require('./minimax');
+const { generateExpense, expenseReport } = require('./minimax');
 
 // create the express application
 const app = express();
@@ -405,7 +405,7 @@ async function main() {
                 return res.status(400).json({ "error": "description is required" });
             }
 
-            // 1. Fetch users' categories
+            // Fetch users' categories
             const categoriesFilter = { "userId": new ObjectId(req.user.uesr_ud) };
             const categories = await db.collection('categories').find(categoriesFilter).toArray();
 
@@ -477,14 +477,14 @@ async function main() {
             const userId = new ObjectId(req.user.user_id);
 
             // Call MiniMax to get new expense based on the description
-            const newExpenseFromAI = await generateExpense(description, categoryList, userId,schema);
-            
+            const newExpenseFromAI = await generateExpense(description, categoryList, userId, schema);
+
             // insert expense into collection - expenses
             const result = await db.collection('expenses').insertOne(newExpenseFromAI);
             //res.json(newExpenseFromAI);
             res.status(200).json({
-                "Message" : "New expense inserted rom natural text by AI",
-                "expenseID" : result.insertedId
+                "Message": "New expense inserted rom natural text by AI",
+                "expenseID": result.insertedId
             });
 
         } catch (error) {
@@ -494,6 +494,75 @@ async function main() {
     })
 
 
+    //POST /api/ai/advices | Parse expense report based on natural language and insert it
+    app.post('/api/ai/advices', [verifyToken], async function (req, res) {
+        try {
+            const { description } = req.body;
+            if (!description) {
+                return res.status(400).json({ "error": "description is required" });
+            };
+
+            const schema = {
+                "collection": "advice",
+                "fields": {
+                    "userId": {
+                        "type": "ObjectId",
+                        "ref": "users",
+                        "description": "References the _id of the user this advice was generated for"
+                    },
+                    "advice": {
+                        "type": "String",
+                        "description": "AI-generated spending insight or recommendation, based on the user's expense data for the given month"
+                    },
+                    "month": {
+                        "type": "String",
+                        "format": "YYYY-MM",
+                        "description": "The month this advice applies to, e.g. \"2026-06\""
+                    },
+                    "createdAt": {
+                        "type": "Date",
+                        "description": "Timestamp of when this advice was generated"
+                    }
+                }
+            };
+
+            // Fetch user's monthly budget configuration
+            const budgetFilter = { "userId": new ObjectId(req.user.user_id) };
+            const monthlyBudgets = await db.collection('budgets').find(budgetFilter).toArray();
+
+            // Fetch user's whole expense history
+            const expenseFilter = { "userId": new ObjectId(req.user.user_id) };
+            const expenseHistory = await db.collection('expenses').find(expenseFilter).toArray();
+
+            const userId = new ObjectId(req.user.user_id);
+
+            // Call MiniMax to get expense report  based on the description
+            const expenseReportFromAI = await expenseReport(description, userId, expenseHistory, monthlyBudgets, schema);
+                        
+            // Rebuild the advice object — use JWT userId, NOT MiniMax's userId
+            const advice = {
+                userId: userId,  // Use JWT userId as ObjectId
+                advice: expenseReportFromAI.fields.advice,
+                month: expenseReportFromAI.fields.month,
+                createdAt: new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Singapore' })
+            };
+
+            // Insert into MongoDB
+            const result = await db.collection('advices').insertOne(advice);
+
+            console.log('Insert result:', result);
+            console.log('Inserted advice:', advice);
+
+            // Return the inserted document
+            res.status(201).json({
+                "_id": result.insertedId,
+                ...advice
+            });
+
+        } catch (error) {
+            res.status(500).json({ "Error": "AI can't generate any advice" });
+        }
+    })
 
     // app.listen
     app.listen(3000, function () {

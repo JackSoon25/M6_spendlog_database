@@ -1,0 +1,9 @@
+[
+  {
+    "_id": { "$oid": "cc6577428c2f6d6bc64e5a22" },
+    "userId": { "$oid": "50af03b971722f244f58d669" },
+    "advice": "Your Bills spending in June 2026 was $268.27, which is significantly higher than your other categories combined this month (Groceries: $42.70, Shopping: $36.55). This could be due to a one-off charge such as an annual insurance premium or a higher utility bill. If this is a recurring monthly amount rather than a one-time charge, consider reviewing your subscriptions and utility plans to see if there's room to reduce fixed costs. Setting a dedicated monthly budget for Bills could help you catch unusual spikes earlier next time.",
+    "month": "2026-06",
+    "createdAt": { "$date": "2026-06-25T09:00:00Z" }
+  }
+]

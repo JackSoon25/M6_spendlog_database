@@ -18,6 +18,12 @@
         "categoryName": "Shopping"
     },
     {
-        "description" : "I have a dinner with my friends at Din Tai Feng located at Tampines Mall yesterday.  I paid the bill, $450 using my credit card."
+        "description": "I have a dinner with my friends at Din Tai Feng located at Tampines Mall yesterday.  I paid the bill, $450 using my credit card."
+    },
+    {
+        "description": "I want you to analysis my 2026-05 expense, and give me some advice on how to avoid over-spending, and any other advices"
+    },
+    {
+        "description": "I want you to analysis my expense, and give me all your advices"
     }
 ]
