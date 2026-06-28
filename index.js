@@ -8,6 +8,8 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const { connect } = require('./db');
 const { ObjectId } = require('mongodb');
+const axios = require('axios');
+const { generateExpense } = require('./minimax');
 
 // create the express application
 const app = express();
@@ -380,9 +382,6 @@ async function main() {
                 _id: new ObjectId(req.params.id),
                 userId: new ObjectId(req.user.user_id),
             };
-            console.log("req.body: ", req.body);
-            console.log("updatedBudget: ", updatedBudget);
-            console.log("filter: ", filter);
 
             const result = await db.collection('budgets').updateOne(filter, { $set: updatedBudget });
             if (result.matchedCount === 0) {
@@ -398,8 +397,105 @@ async function main() {
 
     // ----------- 5. AI search Routes ---------------
 
+    //POST /api/ai/expenses | Parse natural language expense and insert it
+    app.post('/api/ai/expenses', [verifyToken], async function (req, res) {
+        try {
+            const { description } = req.body;
+            if (!description) {
+                return res.status(400).json({ "error": "description is required" });
+            }
+
+            // 1. Fetch users' categories
+            const categoriesFilter = { "userId": new ObjectId(req.user.uesr_ud) };
+            const categories = await db.collection('categories').find(categoriesFilter).toArray();
+
+            // if use - categoryList = JSON.stringify(categories);
+            // categoryList will become "[{_id:..., userId:..., name: 'Food'}, {_id:..., userId:..., name: 'Transport'}]"
+            // this is not clean and waste tokens. So, better to define categoryList 
+            // in a cleaner way: categories.map(function(c) {return c.name;}).join(',');
+            const categoryList = categories.map(function (c) { return c.name; }).join(',');
+            const schema = {
+                "title": "Expense",
+                "type": "object",
+                "required": [
+                    "userId",
+                    "title",
+                    "amount",
+                    "currency",
+                    "categoryName",
+                    "paymentMethod",
+                    "date"
+                ],
+                "properties": {
+                    "userId": {
+                        "type": "string",
+                        "pattern": "^[a-fA-F0-9]{24}$",
+                        "description": "Reference to the user who owns this expense"
+                    },
+                    "title": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 200,
+                        "examples": ["Dinner at Hawker Centre"]
+                    },
+                    "amount": {
+                        "type": "number",
+                        "minimum": 0,
+                        "description": "Expense amount in the given currency"
+                    },
+                    "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$",
+                        "description": "ISO 4217 currency code",
+                        "examples": ["SGD", "USD", "EUR"]
+                    },
+                    "categoryName": {
+                        "type": "string",
+                        "minLength": 1,
+                        "examples": ["Food", "Transport", "Utilities"]
+                    },
+                    "paymentMethod": {
+                        "type": "string",
+                        "enum": ["Cash", "Debit Card", "Credit Card", "Bank Transfer", "E-Wallet", "Other"],
+                        "examples": ["Debit Card"]
+                    },
+                    "date": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "ISO 8601 timestamp (MongoDB BSON Date serialized)"
+                    },
+                    "notes": {
+                        "type": "string",
+                        "maxLength": 1000,
+                        "description": "Optional free-text notes"
+                    }
+                },
+                "additionalProperties": false
+            }
+            const userId = new ObjectId(req.user.user_id);
+
+            // Call MiniMax to get new expense based on the description
+            const newExpenseFromAI = await generateExpense(description, categoryList, userId,schema);
+            
+            // insert expense into collection - expenses
+            const result = await db.collection('expenses').insertOne(newExpenseFromAI);
+            //res.json(newExpenseFromAI);
+            res.status(200).json({
+                "Message" : "New expense inserted rom natural text by AI",
+                "expenseID" : result.insertedId
+            });
+
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ "error": "Failed to create expense via AI" });
+        }
+    })
 
 
+
+    // app.listen
     app.listen(3000, function () {
         console.log('Server has started');
     })

@@ -16,5 +16,8 @@
         "paymentMethod": "paynow",
         "date": "2026-06-10",
         "categoryName": "Shopping"
+    },
+    {
+        "description" : "I have a dinner with my friends at Din Tai Feng located at Tampines Mall yesterday.  I paid the bill, $450 using my credit card."
     }
 ]
